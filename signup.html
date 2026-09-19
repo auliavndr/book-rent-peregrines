@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peregrine's Sign Up</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Cormorant+Unicase:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="formsheet">
+      <div class="bg">
+        <section class="container">
+          <div class="close">
+            <a href="javascript: history.go(-1)" id="close"
+              ><i data-feather="x-circle"></i
+            ></a>
+          </div>
+
+          <header>Sign Up</header>
+          <form action="#" class="form">
+            <div class="input-box">
+              <label>Username</label>
+              <input
+                type="text"
+                id="username"
+                placeholder="Enter username"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label>Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter email address"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input
+                type="tel"
+                id="tel"
+                placeholder="Enter phone number"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <label>Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+
+            <button><a href="login.html">Sign Up</a></button>
+            <p>Have an account? <a href="login.html">Login</a></p>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a
+          href="https://www.instagram.com/peregrine.s_/profilecard/?igsh=bDQzdG5ra3I2OHVk"
+          target="_blank"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a
+          href="https://x.com/swituuth?s=21&t=IUrzY7ARaNR7imz5EiyvNw"
+          target="_blank"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://maps.app.goo.gl/7bxtWodEb7ame3SW8" target="_blank"
+          ><i data-feather="map"></i
+        ></a>
+      </div>
+      <div class="credit">
+        <p>Created by <span>auliavndr</span>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+
+    <!-- icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
